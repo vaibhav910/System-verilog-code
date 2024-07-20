@@ -1,5 +1,6 @@
 
-//"This file contains questions related to series or pattern generation using functions. It serves as a resource for practicing and understanding various approaches to generating series and patterns through function-based methods."
+//"This file contains questions related to series or pattern generation using functions. 
+//It serves as a resource for practicing and understanding various approaches to generating series and patterns through function-based methods."
 
 
 // pattern generator  1020304050.........
