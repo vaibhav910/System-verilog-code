@@ -3,7 +3,7 @@
 
 
 
-//Question 
+//Question 1
 // Generate two 9-bit no. which are not equal and no. of '1' is 5 of there xor
 // A= 010101111, B =010010100 ,A xorB =000111011  A xor B contains 5 '1' and A is not equal to B
 
@@ -39,7 +39,7 @@ endmodule
 
 
 
-// Question
+// Question 2
 // generate 32 bit address contains 10 '1' bits and no adjacent bit are 1
 // Example 10010010001001001000101000101001 this no . is wrong contains 11 'ones'.
 // Example 10010010001001001000101000000011 this no. is wrong last 2 adjacent bits are 'ones'.
