@@ -46,29 +46,29 @@ endmodule
 
 
 
-//class a32bit_addr;
-// 
-//  rand bit [31:0]a_aadr;
-//  
-//  constraint cons_1{$countones(a_aadr)==10;
-//                    foreach(a_aadr[i])
-//                      if((i<31)&&(a_aadr[i]==a_aadr[i+1])) a_aadr[i] !=1;
-//                   }
-//  
-//endclass
-//
-//module tb;
-//  a32bit_addr ad;
-//  
-//  initial begin
-//    ad = new();
-//    repeat(20) begin
-//    ad.randomize();
-//    $display("a_aadr= %b",ad.a_aadr);
-//    end
-//    
-//  end
-//endmodule
+class a32bit_addr;
+ 
+  rand bit [31:0]a_aadr;
+  
+  constraint cons_1{$countones(a_aadr)==10;
+                    foreach(a_aadr[i])
+                      if((i<31)&&(a_aadr[i]==a_aadr[i+1])) a_aadr[i] !=1;
+                   }
+  
+endclass
+
+module tb;
+  a32bit_addr ad;
+  
+  initial begin
+    ad = new();
+    repeat(20) begin
+    ad.randomize();
+    $display("a_aadr= %b",ad.a_aadr);
+    end
+    
+  end
+endmodule
 
 
 // update soon
